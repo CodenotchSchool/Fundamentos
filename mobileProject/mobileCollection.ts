@@ -38,4 +38,16 @@ export class MobileCollection
         }
         return result;
     } 
+
+    public printCollection()
+    {
+        console.log("This is all my mobiles: ");
+
+        for (let mobile of this.mobiles)
+        {
+            mobile.print();
+        }
+
+        console.log("Price overall: " + this.totalPrice);
+    }
 }

@@ -11,8 +11,9 @@ let myArray = [myMobile1, myMobile2, myMobile3, myMobile4];
 let myCollection = new MobileCollection(myArray);
 
 // myCollection.setTotalPrice(3800);
-console.log(myCollection.getMobiles());
-console.log(myCollection.getTotalPrice());
+// console.log(myCollection.getMobiles());
+// console.log(myCollection.getTotalPrice());
+myCollection.printCollection();
 
 // let mobile1 = new Mobile("iPhone", "Apple1", "iPhone 161", "Rojo1", 460);
 // let mobile2 = new Mobile("Samsung", "Samsung1", "Samsung Galaxy S 231", "Verde1", 320);
