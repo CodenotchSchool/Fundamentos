@@ -133,7 +133,9 @@ const isEven = (number) =>
 /////////////////////////////
 
 // console.log(zodiac(20, "Febrero"));
-console.log(continent("españa"));
-continent("España");
-isEven(22);
-isEven(13);
+// console.log(continent("españa"));
+// continent("España");
+// isEven(22);
+// isEven(13);
+
+module.exports = {isEven};

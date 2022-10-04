@@ -67,4 +67,6 @@ const add = (myWords) => {
 // console.log(revertido);
 // isRainbow(["rojo", "Violeta", "Verde", "GRIS", "morado"]);
 
-console.log(add(["casa", "mesa", "paco"]));
+// console.log(add(["casa", "mesa", "paco"]));
+
+module.exports = {add};
