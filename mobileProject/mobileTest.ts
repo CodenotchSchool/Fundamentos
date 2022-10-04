@@ -1,21 +1,9 @@
 import { Mobile } from "./mobile";
 
-let myMobile = new Mobile("iPhone 6", "Apple", "iPhone 6", "Rojo", 1200);
+let myMobile1 = new Mobile("My iPhone", "Apple", "iPhone 16", "Rojo", 1200);
+let myMobile2 = new Mobile("My Samsung", "Samsung", "Samsung Galaxy S 23", "Verde", 2200);
+let myMobile3 = new Mobile("My Nokia", "Microsoft", "Nokia 55", "Verde", 1000);
 
-console.log(myMobile.getColor(), 
-            myMobile.getModel(),  
-            myMobile.getName(), 
-            myMobile.getPrice(), 
-            myMobile.getTradeMark());
-
-myMobile.setColor("Naranja"); 
-myMobile.setModel("iphone 16");
-myMobile.setName("Mi Nuevo iPhone");
-myMobile.setPrice(2000);
-myMobile.setTradeMark("new Apple");
-
-console.log(myMobile.getColor(), 
-            myMobile.getModel(), 
-            myMobile.getName(), 
-            myMobile.getPrice(), 
-            myMobile.getTradeMark());
+myMobile1.print();
+myMobile2.print();
+myMobile3.print();
