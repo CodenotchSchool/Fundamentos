@@ -8,7 +8,7 @@ console.log(myMobile.getColor(),
             myMobile.getPrice(), 
             myMobile.getTradeMark());
 
-myMobile.setColor("Naranja");
+myMobile.setColor("Naranja"); 
 myMobile.setModel("iphone 16");
 myMobile.setName("Mi Nuevo iPhone");
 myMobile.setPrice(2000);
