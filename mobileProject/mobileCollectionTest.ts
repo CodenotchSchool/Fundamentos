@@ -10,19 +10,19 @@ let myArray = [myMobile1, myMobile2, myMobile3, myMobile4];
 
 let myCollection = new MobileCollection(myArray);
 
-myCollection.setTotalPrice(3800);
+// myCollection.setTotalPrice(3800);
 console.log(myCollection.getMobiles());
 console.log(myCollection.getTotalPrice());
 
-let mobile1 = new Mobile("iPhone", "Apple1", "iPhone 161", "Rojo1", 460);
-let mobile2 = new Mobile("Samsung", "Samsung1", "Samsung Galaxy S 231", "Verde1", 320);
-let mobile3 = new Mobile("Nokia", "Microsoft1", "Nokia 551", "Verde1", 100);
-let mobile4 = new Mobile("Ericson", "Sony1", "Ericson 42001", "Amarillo1", 600);
+// let mobile1 = new Mobile("iPhone", "Apple1", "iPhone 161", "Rojo1", 460);
+// let mobile2 = new Mobile("Samsung", "Samsung1", "Samsung Galaxy S 231", "Verde1", 320);
+// let mobile3 = new Mobile("Nokia", "Microsoft1", "Nokia 551", "Verde1", 100);
+// let mobile4 = new Mobile("Ericson", "Sony1", "Ericson 42001", "Amarillo1", 600);
 
-let myArray2 = [mobile1, mobile2, mobile3, mobile4];
-myCollection.setMobiles(myArray2);
-console.log(myCollection.getMobiles());
-console.log(myCollection.getTotalPrice());
+// let myArray2 = [mobile1, mobile2, mobile3, mobile4];
+// myCollection.setMobiles(myArray2);
+// console.log(myCollection.getMobiles());
+// console.log(myCollection.getTotalPrice());
 
 
 

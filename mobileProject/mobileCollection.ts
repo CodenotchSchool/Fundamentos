@@ -4,7 +4,9 @@ export class MobileCollection
     private totalPrice: number;
 
     constructor(private mobiles: Mobile[])
-    {}
+    {
+        this.totalPrice = this.totalPriceCalculation();
+    }
 
     public setTotalPrice(totalPrice: number)
     {
@@ -25,4 +27,15 @@ export class MobileCollection
     {
         return this.mobiles;
     }
+
+    private totalPriceCalculation():number
+    {
+        let result = 0;
+
+        for (let mobile of this.mobiles)
+        {
+            result += mobile.getPrice();
+        }
+        return result;
+    } 
 }
