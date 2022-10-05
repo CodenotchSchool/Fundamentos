@@ -69,5 +69,21 @@ export class Point
         return result;
     }
 
+    public calculateNearest(points : Point[]):Point
+    {
+        let nearest:Point = this;
+        let minDistance:number = Number.MAX_VALUE;
 
+        for (let point of points)
+        {
+            let distance = this.calculateDistance(point);
+            if (distance < minDistance)
+            {
+                minDistance = distance;
+                nearest = point;
+            }
+        }
+
+        return nearest;
+    }
 }
